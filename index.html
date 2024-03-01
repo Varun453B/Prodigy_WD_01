@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <title>Headphones Landing Page</title>
+    </head>
+    <body>
+        <!--HEADER-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M20 12v-1.707c0-4.442-3.479-8.161-7.755-8.29-2.204-.051-4.251.736-5.816 2.256A7.933 7.933 0 0 0 4 10v2c-1.103 0-2 .897-2 2v4c0 1.103.897 2 2 2h2V10a5.95 5.95 0 0 1 1.821-4.306 5.977 5.977 0 0 1 4.363-1.691C15.392 4.099 18 6.921 18 10.293V20h2c1.103 0 2-.897 2-2v-4c0-1.103-.897-2-2-2z"></path><path d="M7 12h2v8H7zm8 0h2v8h-2z"></path></svg><script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script></a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#specs" class="nav__link">Alion</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#case" class="nav__link">Case</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                    </ul>
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--HOME-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div>
+                        <img src="img/home.png" alt="Headphone one side Image" class="home__img">
+                    </div>
+                    <div class="home__data">
+                        <div class="home__header">
+                            <h1 class="home__title">On ear</h1>
+                            <h2 class="home__subtitle">Beats on You...</h2>
+                        </div>
+                        <div class="home__footer">
+                            <h3 class="home__title-description">Overview</h3>
+                            <p class="home__description">Enjoy award-winning Beats sound with wireless listening freedom and a sleek, 
+                                streamlined design with comfortable padded earphones, delivering first-rate playback.
+                            </p>
+                            <a href="#" class="button button--flex">
+                                <span class="button--flex">
+                                    <i class="ri-shopping-bag-line button__icon"></i></i> Add to Cart</span>
+                                <span class="home__price">₹999</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--SPONSOR-->
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <img src="img/sponsor1.png" alt="" class="sponsor__img">
+                    <img src="img/sponsor2.png" alt="" class="sponsor__img">
+                    <img src="img/sponsor3.png" alt="" class="sponsor__img">
+                </div>
+            </section>
+
+            <!--SPECS-->
+            <section class="specs section grid" id="specs">
+                <h2 class="section__title section__title-gradient">Alion</h2>
+
+                <div class="specs__container container grid">
+                    <div class="specs__content grid">
+                        <div class="specs__data">
+                            <i class="ri-bluetooth-line specs__icon"></i>
+                            <h3 class="specs__title">Connection</h3>
+                            <span class="specs__subtitle">Bluetooth v5.5</span>
+                        </div>
+    
+                        <div class="specs__data">
+                            <i class="ri-battery-charge-line specs__icon"></i>
+                            <h3 class="specs__title">Battery</h3>
+                            <span class="specs__subtitle">Duration 40h</span>
+                        </div>
+    
+                        <div class="specs__data">
+                            <i class="ri-plug-line specs__icon"></i>
+                            <h3 class="specs__title">Load</h3>
+                            <span class="specs__subtitle">Fast charge 5.0-AAC</span>
+                        </div>
+    
+                        <div class="specs__data">
+                            <i class="ri-mic-line specs__icon"></i>
+                            <h3 class="specs__title">Microphone</h3>
+                            <span class="specs__subtitle">Supports Apple Siri <br> and Gemini</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <img src="img/alion.png" alt="Copy Of First Headphone">
+                    </div>
+                </div>
+            </section>
+
+            <!--CASE-->
+            <section class="case section grid" id="case">
+                <h2 class="section__title section__title-gradient">Case</h2>
+
+                <div class="case__container container grid">
+                    <div>
+                        <img src="img/case.png" alt="Case Image" class="case__img">
+                    </div>
+
+                    <div class="case__data">
+                        <p class="case__description">With a comfortable and adaptable case so that you can 
+                            store it whenever you want, and keep your durability forever.
+                        </p>
+                        <a href="#" class="button button--flex">
+                            <i class="ri-information-line button__icon"></i> More info
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--PRODUCTS-->
+            <section class="products section" id="products">
+                <h2 class="section__title section__title-gradient products__line">
+                    Choose <br> Your Style
+                </h2>
+
+                <div class="products__container container grid">
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="img/product1.png" alt="Black Colour" class="products__img">
+    
+                            <h3 class="products__title">Black</h3>
+                            <span class="products__price">₹999</span>
+    
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-line button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="img/product2.png" alt="Red Black" class="products__img">
+    
+                            <h3 class="products__title">Red Black</h3>
+                            <span class="products__price">₹999</span>
+    
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-line button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+                   
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="img/product3.png" alt="Twilight gray" class="products__img">
+    
+                            <h3 class="products__title">Twilight gray</h3>
+                            <span class="products__price">₹999</span>
+    
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-line button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+        </main>
+
+        <!--FOOTER-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                 <div class="footer__content">
+                    <h3 class="footer__title">Products</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#home" class="footer__link">Headphones</a>
+                        </li>
+                        <li>
+                            <a href="#home" class="footer__link">Earbuds</a>
+                        </li>
+                        <li>
+                            <a href="#home" class="footer__link">Accesories</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer__content">
+                    <h3 class="footer__title">Support</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Product help</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Register</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Updates</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer__content">
+                    <form action="" class="footer__form">
+                        <input type="email" placeholder="Email" class="footer__input">
+                        <button class="button button--flex">
+                            <i class="ri-send-plane-line button__icon"></i> Send
+                        </button>
+                    </form>
+    
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">
+                <a href="" target="_blank" class="footer__copy-link">&#169; Varun453B. All right reserved</a>
+            </p>
+        </footer>
+        <!--MAIN JS-->
+        <script src="main.js"></script>
+    </body>
+</html>
